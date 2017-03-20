@@ -3,7 +3,7 @@ version = "1.0.0-0"
 supported_platforms = {"linux", "macosx"}
 source = {
   url = "git://github.com/revolsys/kong-plugin-upstream-auth-basic",
-  branch = "master"
+  tag = "1.0.0"
 }
 description = {
   summary = "Kong Plugin for Upstream HTTP Basic Authentication",
