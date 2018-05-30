@@ -1,3 +1,5 @@
-/.project
+.project
+.settings
+.buildpath
 *.src.rock
 .DS_Store

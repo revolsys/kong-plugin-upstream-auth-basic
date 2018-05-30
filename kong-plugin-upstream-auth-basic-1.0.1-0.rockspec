@@ -17,6 +17,6 @@ build = {
   type = "builtin",
   modules = {
     ["kong.plugins.upstream-auth-basic.handler"] = "kong/plugins/upstream-auth-basic/handler.lua",
-    ["kong.plugins.upstream-auth-basic.schema"] = "kong/plugins/upstream-auth-basic/schema.lua",
+    ["kong.plugins.upstream-auth-basic.schema"] = "kong/plugins/upstream-auth-basic/schema.lua"
   }
 }
