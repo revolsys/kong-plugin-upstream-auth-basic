@@ -1,7 +1,28 @@
+local typedefs = require "kong.db.schema.typedefs"
+
 return {
-  no_consumer = true,
+  name = "path-transformer",
   fields = {
-    username = {type = "string", required = "true"},
-    password = {type = "string"}
+    {consumer = typedefs.no_consumer},
+    {
+      config = {
+        type = "record",
+        fields = {
+
+          {
+            username = {
+              type = "string",
+              required = true
+            }
+          },
+          {
+            password = {
+              type = "string",
+              required = false
+            }
+          }
+        }
+      }
+    }
   }
 }
