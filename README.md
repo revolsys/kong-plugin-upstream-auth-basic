@@ -1,3 +1,5 @@
+NOT CURRENTLY MAINTAINED AS KONG HAS CHANGED SINCE  < V1.0.0
+
 # Kong Upstream HTTP Basic Authentication (upstream-auth-basic)
 
 [Kong](https://getkong.org) Plugin to add [HTTP Basic Authentication](https://tools.ietf.org/html/rfc2617#section-2) to the upstream request header.
